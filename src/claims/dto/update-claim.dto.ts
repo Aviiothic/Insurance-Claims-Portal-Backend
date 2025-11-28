@@ -1,7 +1,4 @@
-import { PartialType } from '@nestjs/mapped-types';
-import { CreateClaimDto } from './create-claim.dto';
-
-import { IsString, IsOptional, MaxLength, IsNumber } from 'class-validator';
+import { IsNumber, IsString, MaxLength, IsOptional } from 'class-validator';
 
 export class UpdateClaimDto {
   @IsOptional()

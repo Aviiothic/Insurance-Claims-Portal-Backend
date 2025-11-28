@@ -1,4 +1,4 @@
-import { IsNumber, IsString, IsNotEmpty, MaxLength } from "class-validator"
+import { IsNumber, IsString, IsNotEmpty, MaxLength } from 'class-validator';
 
 export class CreateClaimDto {
   @IsNumber()
